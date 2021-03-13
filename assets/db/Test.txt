@@ -1,0 +1,7 @@
+Are you developing SQLite3 databases and need an easy and powerful tool?
+
+The graphical interface supports all SQLite features.
+
+Homepage: www.sqliteexpert.com
+
+

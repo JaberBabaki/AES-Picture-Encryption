@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="270dip"
+    android:layout_height="fill_parent"
+    android:layout_gravity="right"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="150dip"
+        android:layout_marginBottom="2dip"
+        android:background="#3498DB"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout06"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="8dip"
+            android:gravity="right|center"
+            android:orientation="vertical" android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_weight="0.5"
+                android:orientation="horizontal" >
+
+                <android.simplify.contact.customcontrol.NewControlTextView
+                    android:id="@+id/NewControlTextView03"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="14dip"
+                    android:layout_weight="0.6"
+                    android:gravity="center"
+                    android:text="سامانه 118"
+                    android:textColor="#ffffff"
+                    android:textSize="14dip" />
+
+
+            </LinearLayout>
+
+            <android.simplify.contact.customcontrol.NewControlTextView
+                android:id="@+id/NewControlTextView08"
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_marginLeft="14dip"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="دیگر نگران وقتتان نباشید ..."
+                android:textColor="#ffffff"
+                android:textSize="14dip" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:layout_margin="20dip"
+            android:src="@drawable/groupw" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:background="#eeeeee" android:fillViewport="true">
+
+        <LinearLayout
+            android:id="@+id/lay_all_sliding"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="right"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/lay_login"
+                android:layout_width="match_parent"
+                android:layout_height="50dip"
+                android:layout_marginBottom="2dip"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout02"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="8dip"
+                    android:gravity="right|center"
+                    android:orientation="horizontal" >
+
+                    <android.simplify.contact.customcontrol.NewControlTextView
+                        android:id="@+id/txt_news_sl"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="14dip"
+                        android:layout_weight="0.6"
+                        android:gravity="center"
+                        android:text="on"
+                        android:textColor="#000000"
+                        android:textSize="14dip" />
+
+                    <ImageView
+                        android:id="@+id/ImageView01"
+                        android:layout_width="48dip"
+                        android:layout_height="30dip"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lay_necessary"
+                android:layout_width="match_parent"
+                android:layout_height="50dip"
+                android:layout_marginBottom="2dip"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout11"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="8dip"
+                    android:gravity="right|center"
+                    android:orientation="horizontal" >
+
+                    <android.simplify.contact.customcontrol.NewControlTextView
+                        android:id="@+id/NewControlTextView3"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="14dip"
+                        android:layout_weight="0.6"
+                        android:gravity="center"
+                        android:text="رمزنگاری"
+                        android:textColor="#000000"
+                        android:textSize="14dip" />
+
+                    <ImageView
+                        android:id="@+id/ImageView08"
+                        android:layout_width="48dip"
+                        android:layout_height="34dip"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lay_idea"
+                android:layout_width="match_parent"
+                android:layout_height="50dip"
+                android:layout_marginBottom="2dip"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout03"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="8dip"
+                    android:gravity="right|center"
+                    android:orientation="horizontal" >
+
+                    <android.simplify.contact.customcontrol.NewControlTextView
+                        android:id="@+id/txt_idea"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="14dip"
+                        android:layout_weight="0.6"
+                        android:gravity="center"
+                        android:text="ارسال نظرات"
+                        android:textColor="#000000"
+                        android:textSize="14dip" />
+
+                    <ImageView
+                        android:id="@+id/ImageView02"
+                        android:layout_width="48dip"
+                        android:layout_height="30dip"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lay_survey"
+                android:layout_width="match_parent"
+                android:layout_height="50dip"
+                android:layout_marginBottom="2dip"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout09"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="8dip"
+                    android:gravity="right|center"
+                    android:orientation="horizontal" >
+
+                    <android.simplify.contact.customcontrol.NewControlTextView
+                        android:id="@+id/NewControlTextView5"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="14dip"
+                        android:layout_weight="0.6"
+                        android:gravity="center"
+                        android:text="نظرسنجی"
+                        android:textColor="#000000"
+                        android:textSize="14dip" />
+
+                    <ImageView
+                        android:id="@+id/ImageView05"
+                        android:layout_width="48dip"
+                        android:layout_height="34dip"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlayou01"
+                android:layout_width="match_parent"
+                android:layout_height="25dip"
+                android:layout_marginBottom="2dip"
+                android:background="#eeeeee"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="visible" >
+
+                <LinearLayout
+                    android:id="@+id/lin"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="8dip"
+                    android:gravity="right|center"
+                    android:orientation="horizontal" >
+
+                    <android.simplify.contact.customcontrol.NewControlTextView
+                        android:id="@+id/NewControlTextView4"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="14dip"
+                        android:layout_weight="0.6"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        android:textSize="14dip" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lay_update"
+                android:layout_width="match_parent"
+                android:layout_height="50dip"
+                android:layout_marginBottom="2dip"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout07"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="8dip"
+                    android:gravity="right|center"
+                    android:orientation="horizontal" >
+
+                    <android.simplify.contact.customcontrol.NewControlTextView
+                        android:id="@+id/NewControlTextView6"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="14dip"
+                        android:text="معرفی به دوستان"
+                        android:textColor="#000000"
+                        android:textSize="14dip" android:gravity="center" android:layout_weight="0.6"/>
+
+                    <ImageView
+                        android:id="@+id/ImageView06"
+                        android:layout_width="48dip"
+                        android:layout_height="34dip"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lay_site"
+                android:layout_width="match_parent"
+                android:layout_height="50dip"
+                android:layout_marginBottom="2dip"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout10"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="8dip"
+                    android:gravity="right|center"
+                    android:orientation="horizontal" >
+
+                    <android.simplify.contact.customcontrol.NewControlTextView
+                        android:id="@+id/NewControlTextView7"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="14dip"
+                        android:layout_weight="0.6"
+                        android:gravity="center"
+                        android:text="وب سایت برنامه "
+                        android:textColor="#000000"
+                        android:textSize="14dip" />
+
+                    <ImageView
+                        android:id="@+id/ImageView07"
+                        android:layout_width="48dip"
+                        android:layout_height="34dip"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lay_shar"
+                android:layout_width="match_parent"
+                android:layout_height="50dip"
+                android:layout_marginBottom="2dip"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout12"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="8dip"
+                    android:gravity="right|center"
+                    android:orientation="horizontal" >
+
+                    <android.simplify.contact.customcontrol.NewControlTextView
+                        android:id="@+id/NewControlTextView8"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="14dip"
+                        android:layout_weight="0.6"
+                        android:gravity="center"
+                        android:text="معرفی به دوستان"
+                        android:textColor="#000000"
+                        android:textSize="14dip" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lay_about"
+                android:layout_width="match_parent"
+                android:layout_height="50dip"
+                android:layout_marginBottom="2dip"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout08"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="8dip"
+                    android:gravity="right|center"
+                    android:orientation="horizontal" >
+
+                    <android.simplify.contact.customcontrol.NewControlTextView
+                        android:id="@+id/txt_about"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="14dip"
+                        android:layout_weight="0.6"
+                        android:gravity="center"
+                        android:text="درباره ما"
+                        android:textColor="#000000"
+                        android:textSize="14dip" />
+
+                    <ImageView
+                        android:id="@+id/ImageView04"
+                        android:layout_width="48dip"
+                        android:layout_height="34dip"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lay_telgram"
+                android:layout_width="match_parent"
+                android:layout_height="50dip"
+                android:layout_marginBottom="2dip"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:orientation="vertical" android:visibility="visible">
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout05"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="8dip"
+                    android:gravity="right|center"
+                    android:orientation="horizontal" >
+
+                    <android.simplify.contact.customcontrol.NewControlTextView
+                        android:id="@+id/NewControlTextView2"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="14dip"
+                        android:layout_weight="0.6"
+                        android:gravity="center"
+                        android:text="کانال تلگرام شرکت"
+                        android:textColor="#3498DB"
+                        android:textSize="14dip" />
+
+                    <ImageView
+                        android:id="@+id/ImageView03"
+                        android:layout_width="48dip"
+                        android:layout_height="34dip"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lay_fibernet"
+                android:layout_width="match_parent"
+                android:layout_height="50dip"
+                android:layout_marginBottom="2dip"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout04"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="8dip"
+                    android:gravity="right|center"
+                    android:orientation="horizontal" >
+
+                    <android.simplify.contact.customcontrol.NewControlTextView
+                        android:id="@+id/NewControlTextView1"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="14dip"
+                        android:layout_weight="0.6"
+                        android:gravity="center"
+                        android:text="برنامه ADSL مازندران"
+                        android:textColor="#71B518"
+                        android:textSize="14dip" />
+
+                    <ImageView
+                        android:id="@+id/ImageView09"
+                        android:layout_width="48dip"
+                        android:layout_height="34dip"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

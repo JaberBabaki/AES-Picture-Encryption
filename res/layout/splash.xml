@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <android.simplify.contact.customcontrol.NewControlTextView
+                android:id="@+id/NewControlTextView01"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dip"
+                android:gravity="center"
+                android:singleLine="false"
+                android:text="Contact"
+                android:textColor="#F0FFFF"
+                android:textSize="20dip" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="150dip"
+                android:layout_height="120dip"
+                android:scaleType="fitXY"
+                android:src="@drawable/group" android:layout_marginBottom="20dip"/>
+
+            <android.simplify.contact.customcontrol.NewControlTextView
+                android:id="@+id/NewControlTextView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:gravity="center"
+                android:singleLine="false"
+                android:text="مدیریت آسان مخاطبان"
+                android:textColor="#818181"
+                android:textSize="20dip" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" android:gravity="bottom|center">
+
+                <Button
+                    android:id="@+id/btn_send_message"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dip"
+                    android:layout_marginBottom="50dip"
+                    android:layout_marginTop="8dip"
+                    android:background="#2989DD"
+                    android:text="Welcome"
+                    android:textColor="#ffffff"
+                    android:textSize="20dip" android:visibility="gone"/>
+
+                <android.simplify.contact.customcontrol.CustomProgress
+                    android:id="@+id/csp"
+                    android:layout_width="60dip"
+                    android:layout_height="60dip" />
+
+                <android.simplify.contact.customcontrol.NewControlTextView
+                    android:id="@+id/NewControlTextView02"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip"
+                    android:gravity="center"
+                    android:singleLine="false"
+                    android:text="Simplify Contact"
+                    android:textColor="#818181"
+                    android:textSize="30dip" android:layout_marginBottom="30dip"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

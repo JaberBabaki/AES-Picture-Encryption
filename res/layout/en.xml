@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:background="#2989DD"
+        android:gravity="right" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="left|center" >
+
+            <ImageView
+                android:id="@+id/img_help"
+                android:layout_width="20dip"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="16dip"
+                android:layout_marginRight="20dip"
+                android:src="@drawable/magnifying" />
+
+            <ImageView
+                android:id="@+id/ImageView02"
+                android:layout_width="20dip"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="16dip"
+                android:layout_marginRight="20dip"
+                android:src="@drawable/add" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="right|center" >
+
+            <android.simplify.contact.customcontrol.NewControlTextView
+                android:id="@+id/NewControlTextView1"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="8dip"
+                android:gravity="center"
+                android:text="All Contact"
+                android:textColor="#ffffff"
+                android:textSize="17dip"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/men"
+                android:layout_width="20dip"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="4dip"
+                android:layout_marginRight="16dip"
+                android:src="@drawable/menuu" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="4dip"
+        android:background="#e5e5e5"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtPath"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:text="......."
+                android:textColor="#000000"
+                android:textSize="16dip" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dip"
+            android:orientation="vertical" android:layout_marginBottom="8dip">
+
+            <Button
+                android:id="@+id/btn_read"
+                android:layout_width="100dip"
+                android:layout_height="40dip"
+                android:layout_margin="8dip"
+                android:background="@drawable/button_send_corner_selector"
+                android:paddingRight="20dip"
+                android:text="SelectFile"
+                android:textColor="#ffffff"
+                android:textSize="14dip" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="8dip"
+            android:orientation="vertical"
+            android:visibility="visible" android:layout_height="wrap_content" android:layout_marginTop="16dip">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EnterKey :" android:textColor="#000000" android:layout_margin="4dip"/>
+
+            <EditText
+                android:id="@+id/edt1"
+                android:layout_width="match_parent"
+                android:layout_height="48dip"
+                android:layout_margin="2dip"
+                android:background="@drawable/button_send_corner_dialog_box"
+                android:gravity="left"
+                android:hint="متن پیام"
+                android:padding="10dip"
+                android:textSize="14dip">
+
+                <requestFocus />
+            </EditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_en"
+                android:layout_width="100dip"
+                android:layout_height="40dip"
+                android:layout_margin="8dip"
+                android:background="@drawable/button_send_corner_selector"
+                android:paddingRight="20dip"
+                android:text="Encode File"
+                android:textColor="#ffffff"
+                android:textSize="14dip" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_de"
+                android:layout_width="100dip"
+                android:layout_height="40dip"
+                android:layout_margin="8dip"
+                android:background="@drawable/button_send_corner_selector"
+                android:paddingRight="20dip"
+                android:text="Decode File"
+                android:textColor="#ffffff"
+                android:textSize="14dip" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

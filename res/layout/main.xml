@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:background="#2989DD"
+        android:gravity="right" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="left|center" >
+
+            <ImageView
+                android:id="@+id/img_help"
+                android:layout_width="20dip"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="16dip"
+                android:layout_marginRight="20dip"
+                android:src="@drawable/magnifying" />
+
+            <ImageView
+                android:id="@+id/ImageView02"
+                android:layout_width="20dip"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="16dip"
+                android:layout_marginRight="20dip"
+                android:src="@drawable/add" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="right|center" >
+
+            <android.simplify.contact.customcontrol.NewControlTextView
+                android:id="@+id/NewControlTextView1"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="8dip"
+                android:gravity="center"
+                android:text="All Contact"
+                android:textColor="#ffffff"
+                android:textSize="17dip"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/men"
+                android:layout_width="20dip"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="4dip"
+                android:layout_marginRight="16dip"
+                android:src="@drawable/menuu" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="58dip"
+        android:background="#2989DD"
+        android:gravity="right" >
+
+        <LinearLayout
+            android:id="@+id/tab_time"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dip"
+            android:layout_weight="0.33"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/ImageView01"
+                android:layout_width="20dip"
+                android:layout_height="20dip"
+                android:layout_marginLeft="4dip"
+                android:layout_marginRight="4dip"
+                android:layout_weight="1"
+                android:src="@drawable/stopwatch" />
+
+            <ImageView
+                android:id="@+id/tab_sec3"
+                android:layout_width="fill_parent"
+                android:layout_height="4dip"
+                android:layout_marginLeft="4dip"
+                android:layout_marginRight="4dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tab_fav"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dip"
+            android:layout_weight="0.33"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/ImageView04"
+                android:layout_width="20dip"
+                android:layout_height="20dip"
+                android:layout_marginLeft="4dip"
+                android:layout_marginRight="4dip"
+                android:layout_weight="1"
+                android:src="@drawable/star" />
+
+            <ImageView
+                android:id="@+id/tab_sec2"
+                android:layout_width="fill_parent"
+                android:layout_height="4dip"
+                android:layout_marginLeft="4dip"
+                android:layout_marginRight="4dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tab_contact"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dip"
+            android:layout_weight="0.33"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/ImageView05"
+                android:layout_width="20dip"
+                android:layout_height="20dip"
+                android:layout_marginLeft="4dip"
+                android:layout_marginRight="4dip"
+                android:layout_weight="1"
+                android:src="@drawable/all" />
+
+            <ImageView
+                android:id="@+id/tab_sec1"
+                android:layout_width="fill_parent"
+                android:layout_height="4dip"
+                android:layout_marginLeft="4dip"
+                android:layout_marginRight="4dip" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lst_product"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="4dip"
+        android:layout_weight="0.5"
+        android:background="#ffffff"
+        android:cacheColorHint="@null"
+        android:clickable="false"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:divider="@null"
+        android:dividerHeight="0dip"
+        android:duplicateParentState="true"
+        android:focusable="false"
+        android:visibility="visible" >
+        <!-- Preview: listitem=@layout/item_faq -->
+    </ListView>
+
+</LinearLayout>
