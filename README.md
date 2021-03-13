@@ -13,7 +13,11 @@ This project has the following two parts:
     * select the encrypted image
     * Enter pass key
     * Decrypt
-
-![Repo List](https://github.com/JaberBabaki/AES-Picture-Encryption/blob/main/pic/3.jpeg)
+    
+<table style="width:100%">
+   <tr>
+    <td><img src="https://github.com/JaberBabaki/AES-Picture-Encryption/blob/main/pic/3.jpeg" width="250" height="400" /></td>
+  </tr>
+</table>
 
 
